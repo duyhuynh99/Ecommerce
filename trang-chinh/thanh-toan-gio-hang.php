@@ -242,7 +242,7 @@ ob_start();
                 </tr>
                 </tbody>
             </table>        
-            <li><a href="danh-sach-sp.php">TRANG CHỦ</a></li>
+
             </form>
             </div>
         </div>

@@ -204,7 +204,7 @@
                 <tr>
                     <td>Giao hàng</td>
                     <td style = "text-align:right;">Giao hàng miễn phí <br>
-                    Ứơc tính cho Việt Nam <br>
+                    Ước tính tại nội thành Hồ Chí Minh <br>
                     Đổi địa chỉ</td>
                 </tr>
                 <tr>
