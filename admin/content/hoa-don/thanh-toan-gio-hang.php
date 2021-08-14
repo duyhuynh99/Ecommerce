@@ -21,8 +21,6 @@
         $tinhtrang=0;
     }
 
-
-
      $mahd = $ma_hd;
      $ngaymua = $ngay_mua;
      $ghichu = $ghi_chu;

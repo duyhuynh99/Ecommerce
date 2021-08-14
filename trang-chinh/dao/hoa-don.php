@@ -13,9 +13,9 @@
     }
 
     function hoa_don_select_by_makh($ma_kh){
-        $sql = "SELECT * FROM hoa_don WHERE ma_kh=?";
+        $sql = "SELECT * FROM hoa_don WHERE ma_kh=? ORDER BY ma_hd DESC";
         return pdo_query($sql,$ma_kh);
-    }   
+    }    
 
     function hoa_don_chi_tiet_select_all(){
         $sql = "SELECT * FROM hoa_don_chi_tiet ORDER BY ma_hd DESC";

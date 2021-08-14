@@ -109,9 +109,8 @@
                             <!-- /. XỬ LÝ CODE PHP  -->
                             <?php
                                 require_once ('../trang-chinh/dao/hoa-don.php');
-                                extract($_REQUEST);
+
                                 $ma_kh= $_SESSION['user']['ma_kh'];
-                                echo $ma_kh;
                                 $items = hoa_don_select_by_makh($ma_kh);
                             ?>
                             <!-- /. CONTENT  -->
