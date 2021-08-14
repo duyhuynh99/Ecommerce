@@ -111,6 +111,7 @@
                                 require_once ('../trang-chinh/dao/hoa-don.php');
                                 extract($_REQUEST);
                                 $ma_kh= $_SESSION['user']['ma_kh'];
+                                echo $ma_kh;
                                 $items = hoa_don_select_by_makh($ma_kh);
                             ?>
                             <!-- /. CONTENT  -->
@@ -118,7 +119,6 @@
                                 <thead>
                                   <tr>
                                     <th>MÃ HĐ</th>
-                                    <th>MÃ KH</th>
                                     <th>NGÀY MUA</th>
                                     <th>GHI CHÚ</th>
                                     <th>TÌNH TRẠNG</th>
@@ -127,16 +127,15 @@
                                 </thead>
                                 <tbody>
                                 <?php foreach($items as $item){ 
-               //                      extract($item);
+                                     extract($item);
                                      $total
                                     ?> 
                                   <tr>
                                     <td><?=$ma_hd?></td>
-                                    <td><?=$ma_kh?></td>
                                     <td><?=$ngay_mua?></td>
                                     <td><?=$ghi_chu?></td>
                                     <td> 
-                                        <a href="thanh-toan-gio-hang.php?ma_hd=<?=$ma_hd?>">
+                                        <a href="chinhsuadon.php?ma_hd=<?=$ma_hd?>">
                                         <?php
                                             if($tinh_trang == 0){
                                                 echo '<button class="btn btn-warning name="thanh_toan">';

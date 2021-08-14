@@ -133,7 +133,7 @@
 
                             <div class="form-group">
                             <label for="">Đơn giá</label>
-                            <input type="number" class="form-control" id="don_gia" name="don_gia"
+                            <input type="number" class="form-control" id="don_gia" name="don_gia" min="0" max="99999999"
                                 placeholder="Nhập đơn giá ...">
                             </div>
 

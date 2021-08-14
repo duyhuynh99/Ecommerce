@@ -134,7 +134,7 @@
                                     <td><?=$ngay_mua?></td>
                                     <td><?=$ghi_chu?></td>
                                     <td> 
-                                        <a href="thanh-toan-gio-hang.php?ma_hd=<?=$ma_hd?>">
+                                    <a href="thanh-toan-gio-hang.php?ma_hd=<?=$ma_hd?>">
                                         <?php
                                             if($tinh_trang == 0){
                                                 echo '<button class="btn btn-warning name="thanh_toan">';
@@ -153,6 +153,7 @@
                                             }
                                         ?>
                                         </button></a>
+                            </div>
                                     </td>
                                     <td><a href="chi-tiet-hoa-don.php?ma_hd=<?=$ma_hd?>&ma_kh=<?=$ma_kh?>"><button class="btn btn-success">Chi tiết</button></a></td>
                                   </tr>

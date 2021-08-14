@@ -104,7 +104,7 @@
 		  <div class="header"> 
                                 <!-- /. XỬ LÝ CODE PHP  -->
                                 <?php
-                                require_once ('../../../trang-chinh/dao/hoa-don.php');
+                                require_once ('../trang-chinh/dao/hoa-don.php');
                                 extract($_REQUEST);
                                 $items = hoa_don_chi_tiet_select_by_id($ma_hd);
                                 $Total = 0;
