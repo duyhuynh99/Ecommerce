@@ -127,7 +127,7 @@
 
                     </label>
                     <br>
-                    <a href="https://localhost/bigshoes/trang-chinh/danh-sach-sp.php">
+                    <a href="https://localhost/bigshoes/trang-chinh/lichsu.php">
                         <button>Quay lại</button>
                     </a>
                 </div> 

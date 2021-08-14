@@ -87,7 +87,14 @@
                             <li><a href="gioi-thieu.php">GIỚI THIỆU</a></li>
                             <li><a href="tin-tuc.php">TIN TỨC</a></li>
                             <li><a href="lien-he.php">LIÊN HỆ</a></li>
-                            <li><a href="lichsu.php">THEO DÕI</a></li>
+                            <?php
+                                if(!isset($_SESSION['user'])){
+                            ?>
+                            <li><a href="../../bigshoes/tai-khoan/dang-nhap.php">THEO DÕI</a></li>
+                                <?php }else{ ?>
+                                    <li><a href="lichsu.php">THEO DÕI</a></li>
+                                <?php } ?>
+
                     </ul>
                 </div>
             </div>
