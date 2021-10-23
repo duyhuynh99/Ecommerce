@@ -23,7 +23,7 @@
     <div class="container-fluid">
         <div class="banner">
             <video autoplay muted loop id="myVideo">
-                <source src="../css/trang-chu/img/G-DRAGON Seoul  All For 1  Nike.mp4" type="video/mp4">
+                <source src="../css/trang-chu/img/cafe.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
               </video>
             <div class="row">
@@ -63,11 +63,11 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="text">
-                        <p class="nho">CHÂN TÔI VẪN ĐANG ĐI TRÊN MẶT ĐẤT,</p>
-                        <p class="nho">VÀ TÔI CHỈ ĐANG ĐI NHỮNG ĐÔI GIÀY TỐT HƠN ... </p>
-                        <P class="to">Trích - "Roger Vivier"</P>
+                        <p class="nho">Cà phê thì phải đen như địa ngục,</p>
+                        <p class="nho">đắng như tử thần và ngọt ngào tựa tình yêu…</p>
+                        <P class="to">Trích - "Sưu tầm"</P>
                         <P class="likk">
-                            <a href="danh-sach-sp.php"><span>SHOPPING</span></a>
+                            <a href="danh-sach-sp.php"><span>COFEESHOP</span></a>
                         </P>
                     </div>
                 </div>
@@ -84,8 +84,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="caption">
-                    <p>BST NỔI BẬT </p>
-                    <h2> <span>BST</span> MÙA XUÂN 2021</h2>
+                    <p>GÓC COFFEE NỔI BẬT </p>
+                    <h2> <span>COFFEE</span> STYLE 2021</h2>
                 </div>
             </div>
         </div>
@@ -98,24 +98,24 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="anhmoi">
-                    <img src="../css/trang-chu/img/s2.jpg" alt="">
+                    <img src="../css/trang-chu/img/cafe3.jpg" alt="">
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="row">
                     <div class="anhmoi">
-                        <img src="../css/trang-chu/img/s1.jpg" alt="">
+                        <img src="../css/trang-chu/img/cafe1.jpg" alt="">
                     </div>
                 </div>
                 <div class="row" style="margin-top: 30px;">
                     <div class="col-md-6">
                         <div class="anhmoi">
-                            <img src="../css/trang-chu/img/s3.jpg" alt="">
+                            <img src="../css/trang-chu/img/cafe2.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="anhmoi">
-                            <img src="../css/trang-chu/img/s4.jpg" alt="">
+                            <img src="../css/trang-chu/img/cafe4.jpg" alt="">
                         </div>
                     </div>
 
@@ -141,7 +141,7 @@
 
     <?php
         require_once ('../admin/dao/hang-hoa.php');
-        $items = hang_hoa_select_all_adidas();
+        $items = hang_hoa_select_all_cafe();
     
     ?>
 
@@ -167,20 +167,20 @@
     </div>
 
 
-    <div class="container-fluid now" style="margin-top: 80px;">
+    <div class="container-fluid now" style="margin-top: 90px;">
         <div class="row ">
             <div class="col-md-6">
                 <div class="jus">
-                    <img src="../css/trang-chu/img/a3.jpg" alt="a">
+                    <img src="../css/trang-chu/img/cafe5.jpg" alt="a">
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="newjus">
                     <ul>
                         <li>
-                            <h2>CTKM SALE UP TO<span> 50%</span> toàn bộ sản phẩm tại shop !</h2>
+                            <h2>CTKM SALE UP TO<span> 10%</span> toàn bộ sản phẩm tại shop !</h2>
                         </li>
-                        <li>Sự kiện diễn ra đến hết tháng 5/2021</li>
+                        <li>Sự kiện diễn ra đến hết tháng 11/2021</li>
                         <li>
                             <a href="danh-sach-sp.php">XEM NGAY</a>
                         </li>
@@ -203,7 +203,7 @@
                             <p><i class="fa fa-shopping-bag"></i></p>
                         </li>
                         <li>
-                            <p><span>Miễn phí</span> vận chuyển <br> cho các đơn hàng trên 2 triệu</p>
+                            <p><span>Miễn phí</span> vận chuyển <br> cho các đơn hàng trên 2 trăm nghìn</p>
                         </li>
                     </ul>
                 </div>
@@ -296,7 +296,7 @@
     </div>
 
                     <?php
-                        $items = hang_hoa_select_all_pegasus();
+                        $items = hang_hoa_select_all_tratraicay();
                     ?>
 
     <div class="container" style="margin-top: 30px;">
@@ -336,7 +336,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="fo">
-                        <img src="https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.6435-9/181150315_102201648705132_5894264111956944146_n.png?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QFhQphCXzRAAX-d1fir&_nc_ht=scontent.fsgn13-1.fna&oh=9bdbefb8aa7738430f4cf22e51cefca8&oe=613BD03A" alt="" style ="width:60px;">
+                        <img src="../css/trang-chu/img/logo11.png" alt="" style ="width:70px;">
                         </div>
                     </div>
                     <div class="col-md-3">

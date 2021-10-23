@@ -28,13 +28,13 @@
         return pdo_query($sql);
     }
 
-    function hang_hoa_select_all_adidas(){
-        $sql = "SELECT * FROM hang_hoa JOIN loai_hang ON hang_hoa.ma_loai = loai_hang.ma_loai WHERE ten_loai='Adidas'";
+    function hang_hoa_select_all_cafe(){
+        $sql = "SELECT * FROM hang_hoa JOIN loai_hang ON hang_hoa.ma_loai = loai_hang.ma_loai WHERE ten_loai='cà phê'";
         return pdo_query($sql);
     }
 
-    function hang_hoa_select_all_pegasus(){
-        $sql = "SELECT * FROM hang_hoa JOIN loai_hang ON hang_hoa.ma_loai = loai_hang.ma_loai WHERE ten_loai='Pegasus'";
+    function hang_hoa_select_all_tratraicay(){
+        $sql = "SELECT * FROM hang_hoa JOIN loai_hang ON hang_hoa.ma_loai = loai_hang.ma_loai WHERE ten_loai='trà trái cây'";
         return pdo_query($sql);
     }
 

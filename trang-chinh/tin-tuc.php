@@ -44,7 +44,7 @@
             </div>
             <div class="col-md-4" style="background-color: rgb(54, 54, 54);text-align: center">
                 <div class="logo">
-                <a href="index.php"><img src="https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.6435-9/181150315_102201648705132_5894264111956944146_n.png?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QFhQphCXzRAAX-d1fir&_nc_ht=scontent.fsgn13-1.fna&oh=9bdbefb8aa7738430f4cf22e51cefca8&oe=613BD03A" alt="anh"></a>
+                <a href="index.php"><img src="../css/trang-chu/img/logo11.png" alt="anh"></a>
                 </div>
             </div>
             <div class="col-md-4" style="background-color: rgb(54, 54, 54);text-align: center">
@@ -124,42 +124,42 @@
                         <table>
                             <tr>
                                 <td>
-                                    <img src="../../bigshoes/css/tin-tuc/img/1.jpg" alt="">
+                                    <img src="../../bigshoes/css/tin-tuc/img/tt1.jpg" alt="">
                                 </td>
                                 <td>
-                                    <p>Nike Air Max làm từ tảo biển tuy xấu nhưng vẫn rất bán hết sạch </p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <img src="../../bigshoes/css/tin-tuc/img/2.jpg" alt="">
-                                </td>
-                                <td>
-                                    <p>Ai đăng ký trước mới mua được giày Pegasus Or Bike Console</p>
+                                    <p>Ngày 15/01/2021, STAFF Coffee House chính thức ra mắt phiên bản App mới với mong muốn tối ưu trải nghiệm </p>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <img src="../../bigshoes/css/tin-tuc/img/3.jpg" alt="">
+                                    <img src="../../bigshoes/css/tin-tuc/img/tt2.jpg" alt="">
                                 </td>
                                 <td>
-                                    <p>10 phụ kiện mà tín đồ mê giày nên am hiểu và vận dụng tốt </p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <img src="../../bigshoes/css/tin-tuc/img/5.jpg" alt="">
-                                </td>
-                                <td>
-                                    <p>Top giày Jordan ấn tượng sắp ra mắt vào mùa xuân 2021 </p>
+                                    <p>Ngày 15/01/2021, STAFF Coffee House chính thức ra mắt phiên bản App mới với mong muốn tối ưu trải nghiệm</p>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <img src="../../bigshoes/css/tin-tuc/img/7.jpg" alt="">
+                                    <img src="../../bigshoes/css/tin-tuc/img/tt3.jpg" alt="">
                                 </td>
                                 <td>
-                                    <p>Hệ thống giày THE CLOSER - Uy tín làm nên thương hiệu </p>
+                                    <p>Ngày 15/01/2021, STAFF Coffee House chính thức ra mắt phiên bản App mới với mong muốn tối ưu trải nghiệm </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../../bigshoes/css/tin-tuc/img/tt4.jpg" alt="">
+                                </td>
+                                <td>
+                                    <p>Ngày 15/01/2021, STAFF Coffee House chính thức ra mắt phiên bản App mới với mong muốn tối ưu trải nghiệm </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../../bigshoes/css/tin-tuc/img/tt5.jpg" alt="">
+                                </td>
+                                <td>
+                                    <p>Ngày 15/01/2021, STAFF Coffee House chính thức ra mắt phiên bản App mới với mong muốn tối ưu trải nghiệm </p>
                                 </td>
                             </tr>
 
@@ -180,7 +180,7 @@
 
 
                     <div class="card" style="width: 14rem;">
-                        <img src="../../bigshoes/css/tin-tuc/img/6.jpg" class="card-img-top" alt="...">
+                        <img src="../../bigshoes/css/tin-tuc/img/tt1.jpg" class="card-img-top" alt="...">
                         <div class="card-body" style="
                         padding-top: 0px;
                         padding-right: 0px;
@@ -189,16 +189,16 @@
                     ">
 
 
-                            <p class="card-text">Top 10 những đôi giày nổi bật tại THE CLOSER</p>
+                            <p class="card-text">DEAL SIÊU YÊU - CHIỀU BẠN HẾT MỨC</p>
                             <p class="gach"></p>
-                            <p class="nho">Với hệ thống giày lớn đầy đủ mẫu mã đa dạng thỳ ...</p>
+                            <p class="nho">Ngày 15/01/2021, STAFF Coffee House chính thức ra mắt phiên bản App mới với mong muốn tối ưu trải nghiệm ...</p>
                             <p class="ngay"> <img src="../../bigshoes/css/tin-tuc/img/h.png" alt=""> </p>
 
                         </div>
                     </div>
 
                     <div class="card" style="width: 14rem;">
-                        <img src="../../bigshoes/css/tin-tuc/img/5.jpg" class="card-img-top" alt="...">
+                        <img src="../../bigshoes/css/tin-tuc/img/tt6.jpg" class="card-img-top" alt="...">
                         <div class="card-body" style="
                         padding-top: 0px;
                         padding-right: 0px;
@@ -207,16 +207,16 @@
                     ">
 
 
-                            <p class="card-text">Chương trình khuyến mãi tri ân khách hàng thành viên</p>
+                            <p class="card-text">CHAI FRESH: LỜI YÊU DÀNH TẶNG NGƯỜI PHỤ NỮ</p>
                             <p class="gach"></p>
-                            <p class="nho">Tới đây sẽ có những ưu đãi cho những khách hàng thành viên ...</p>
+                            <p class="nho">Ngày 15/01/2021, STAFF Coffee House chính thức ra mắt phiên bản App mới với mong muốn tối ưu trải nghiệm ...</p>
                             <p class="ngay"> <img src="../../bigshoes/css/tin-tuc/img/h.png" alt=""> </p>
 
                         </div>
                     </div>
 
                     <div class="card" style="width: 14rem;">
-                        <img src="../../bigshoes/css/tin-tuc/img/7.jpg" class="card-img-top" alt="...">
+                        <img src="../../bigshoes/css/tin-tuc/img/tt7.png" class="card-img-top" alt="...">
                         <div class="card-body" style="
                         padding-top: 0px;
                         padding-right: 0px;
@@ -225,16 +225,16 @@
                     ">
 
 
-                            <p class="card-text">Neymar sẽ lựa chọn giày nào để dự tiệc đám cưới Messi ?</p>
+                            <p class="card-text">SIÊU PHẨM CHAI FRESH SẮP TRỞ LẠI – HỨA HẸN NHIỀU BẤT NGỜ...</p>
                             <p class="gach"></p>
-                            <p class="nho">Sắp tới đây sẽ có 1 sự kiện quan trọng cho bóng đá ...</p>
+                            <p class="nho">Ngày 15/01/2021, STAFF Coffee House chính thức ra mắt phiên bản App mới với mong muốn tối ưu trải nghiệm ...</p>
                             <p class="ngay"> <img src="../../bigshoes/css/tin-tuc/img/h.png" alt=""> </p>
 
                         </div>
                     </div>
 
                     <div class="card" style="width: 14rem;">
-                        <img src="../../bigshoes/css/tin-tuc/img/8.jpg" class="card-img-top" alt="...">
+                        <img src="../../bigshoes/css/tin-tuc/img/tt8.jpg" class="card-img-top" alt="...">
                         <div class="card-body" style="
                         padding-top: 0px;
                         padding-right: 0px;
@@ -243,16 +243,16 @@
                     ">
 
 
-                            <p class="card-text">Nike Air One - giá rẻ nhưng chất lượng không rẻ</p>
+                            <p class="card-text">TÁI SỬ DỤNG CHAI FRESH – CÙNG THE COFFEE HOUSE LAN TỎA LỐI SỐNG XANH</p>
                             <p class="gach"></p>
-                            <p class="nho">Nike đã cho ra đời dòng sản phẩm Nike Air One trên ...</p>
+                            <p class="nho">Ngày 15/01/2021, STAFF Coffee House chính thức ra mắt phiên bản App mới với mong muốn tối ưu trải nghiệm ...</p>
                             <p class="ngay"> <img src="../../bigshoes/css/tin-tuc/img/h.png" alt=""> </p>
 
                         </div>
                     </div>
 
                     <div class="card" style="width: 14rem;">
-                        <img src="../../bigshoes/css/tin-tuc/img/2.jpg" class="card-img-top" alt="...">
+                        <img src="../../bigshoes/css/tin-tuc/img/tt2.jpg" class="card-img-top" alt="...">
                         <div class="card-body" style="
                         padding-top: 0px;
                         padding-right: 0px;
@@ -261,16 +261,16 @@
                     ">
 
 
-                            <p class="card-text">Top 5 đôi giày được các bạn nữ yêu thích nhất</p>
+                            <p class="card-text">RỘN RÀNG GỌI MÓN, NHÀ & MOMO MỜI DEAL XỊN SÒ</p>
                             <p class="gach"></p>
-                            <p class="nho">Dựa trên 1 cuộc khảo sát tại THE CLOSER đôi giày mà ...</p>
+                            <p class="nho">Ngày 15/01/2021, STAFF Coffee House chính thức ra mắt phiên bản App mới với mong muốn tối ưu trải nghiệm ...</p>
                             <p class="ngay"> <img src="../../bigshoes/css/tin-tuc/img/h.png" alt=""> </p>
 
                         </div>
                     </div>
 
                     <div class="card" style="width: 14rem;">
-                        <img src="../../bigshoes/css/tin-tuc/img/1.jpg" class="card-img-top" alt="...">
+                        <img src="../../bigshoes/css/tin-tuc/img/tt3.jpg" class="card-img-top" alt="...">
                         <div class="card-body" style="
                         padding-top: 0px;
                         padding-right: 0px;
@@ -279,9 +279,9 @@
                     ">
 
 
-                            <p class="card-text">Adidas First One - sự lựa chọn hoàn hảo</p>
+                            <p class="card-text">GU ĐẬM ĐÀ - DEAL ĐẬM CHẤT CHO NGÀY MỚI NĂNG LƯỢNG</p>
                             <p class="gach"></p>
-                            <p class="nho">Adidas Fist One hiện đang làm mưa làm gió trên ...</p>
+                            <p class="nho">Ngày 15/01/2021, STAFF Coffee House chính thức ra mắt phiên bản App mới với mong muốn tối ưu trải nghiệm ...</p>
                             <p class="ngay"> <img src="../../bigshoes/css/tin-tuc/img/h.png" alt=""> </p>
 
                         </div>
@@ -309,7 +309,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="fo">
-                        <img src="https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.6435-9/181150315_102201648705132_5894264111956944146_n.png?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QFhQphCXzRAAX-d1fir&_nc_ht=scontent.fsgn13-1.fna&oh=9bdbefb8aa7738430f4cf22e51cefca8&oe=613BD03A" alt="" style ="width:60px;">
+                        <img src="../css/trang-chu/img/logo11.png" alt="" style ="width:60px;">
                         </div>
                     </div>
                     <div class="col-md-3">

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th8 14, 2021 lúc 11:12 AM
+-- Thời gian đã tạo: Th10 23, 2021 lúc 04:44 PM
 -- Phiên bản máy phục vụ: 10.4.18-MariaDB
 -- Phiên bản PHP: 8.0.3
 
@@ -35,14 +35,6 @@ CREATE TABLE `binh_luan` (
   `ngay_bl` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Đang đổ dữ liệu cho bảng `binh_luan`
---
-
-INSERT INTO `binh_luan` (`ma_bl`, `ma_kh`, `ma_hh`, `noi_dung`, `ngay_bl`) VALUES
-(18, 'pikachu', 35, 'Giày đẹp lắm shop <3', '04-05-2021'),
-(20, 'pikachu', 27, 'sdfsdfdsfdsfdsf', '03-05-2021');
-
 -- --------------------------------------------------------
 
 --
@@ -64,40 +56,56 @@ CREATE TABLE `hang_hoa` (
 --
 
 INSERT INTO `hang_hoa` (`ma_hh`, `ten_hh`, `hinh`, `don_gia`, `giam_gia`, `mo_ta`, `ma_loai`) VALUES
-(27, 'Adidas Continental 80', 'adidascontinental80.png', 1200000, 5, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 24),
-(28, 'Adidas Cyber Punk', 'adidascyberpunk.png', 1300000, 5, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 24),
-(29, 'Adidas NMD R1', 'adidasnmd_r1.png', 1250000, 10, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 24),
-(30, 'Adidas Reponse', 'adidasresponse.png', 1500000, 5, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 24),
-(31, 'Adidas Super Star', 'adidassupperstar.png', 990000, 0, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 24),
-(32, 'Adidas UltraBoost', 'adidasultraboost.png', 1800000, 10, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 24),
-(33, 'Adidas UltraBoost 20', 'adidasultraboost20.png', 2000000, 15, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 24),
-(34, 'Adidas UltraBoost DNA City', 'adidasultraboostdnacity.png', 2100000, 10, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 24),
-(35, 'Adidas ZK 2K Boost', 'adidaszk2kboost.png', 2300000, 10, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 24),
-(36, 'Pegasus Chaz', 'pegasuschaz.png', 880000, 10, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 23),
-(37, 'Pegasus Trail 2', 'pegasustrail2.png', 1230000, 10, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 23),
-(38, 'Pegasus Zoom 35', 'pegasuszoom35.png', 1450000, 10, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 23),
-(39, 'Pegasus Zoom 37', 'pegasuszoom37.png', 2120000, 30, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 23),
-(40, 'Converse Chuck Taylor', 'conversechucktaylor.png', 1990000, 20, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 20),
-(41, 'Blazer Mid', 'blazermid.png', 1470000, 10, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 21),
-(42, 'Blazer 77 Infinitive ', 'blazermid77infinitive.png', 1360000, 20, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 21),
-(43, 'Blazer 77 Suede', 'blazermid77suede.png', 1250000, 50, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 21),
-(44, 'Blazer 77 Vintage', 'blazermid77vintage.png', 2010000, 40, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 21),
-(45, 'Jordan 1 Lowse', 'jordan1lowse.png', 1760000, 10, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 22),
-(46, 'Jordan 6 Retro', 'jordan6retro.png', 1510000, 10, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 22),
-(47, 'Jordan ADG 2', 'jordanadg2.png', 1320000, 20, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 22),
-(48, 'Jordan Delta', 'jordandelta.png', 2080000, 10, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 22),
-(49, 'Nike Air Force', 'nikeairforce.png', 1100000, 10, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 25),
-(50, 'Nike Air Max 1', 'nikeairmax1.png', 1210000, 10, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 25),
-(51, 'Nike Air Vapomax', 'nikeairvapormax.png', 1750000, 20, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 25),
-(52, 'Nike Air Zoom', 'nikeairzoom.png', 2500000, 50, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 25),
-(53, 'Nike Justin', 'nikejustin.png', 1500000, 10, 'Các sản phẩm của THE CLOSER thích hợp sử dụng trong mọi thời tiết và địa hình, đặc biệt là trong những ngày mưa. Phần đế được ép nhiệt nên cực bền sau thời gian sử dụng, kết hợp với da công nghiệp tạo ra kiểu dáng trẻ trung sang trọng đem lại sự hài lòng tuyệt đối cho quý khách hàng.', 25),
-(54, 'MLB Boston', 'MLBBOSTON.jpg', 1499999, 5, 'Giày MLB Big Ball Chunky P Boston màu trắng họa tiết đỏ Size 235 là đôi giày Unisex cao cấp được làm bởi chất liệu đặc biệt, giày MLB tạo cảm giác thoải mái, êm chân khi đi. Với thiết kế độc đáo, phá cách, tạo nên sự trẻ trung, năng động cho người dùng.', 26),
-(55, 'MLB Big Ball Chunky LA Dodgers', 'giay-mlb-big-ball-chunky-la-dodgers.jpg', 3250000, 11, 'Giày MLB Big Ball Chunky LA Dodgers 32SHCD111-07I với thiết kế Đẹp - Độc - Lạ, form giày phóng đại tạo nên sự trẻ trung, năng động cho người dùng. Các đường nét của đôi giày vô cùng tinh tế và sắc sảo.\r\n\r\nPhần trên của Giày MLB Big Ball Chunky LA được làm từ chất liệu da cao cấp, mềm mại, dễ vệ sinh. Phần đế giày được làm từ cao su lưu hóa với độ bền cao, đế thiết kế chắc chắn mang lại độ ma sát tốt.\r\n\r\nMàu sắc giày trắngdễ dàng kết hợp với nhiều trang phục khác nhau để tạo nên 1 set đồ đẹp khi ', 26),
-(57, 'YEEZY BOOST 350V2 ASH PEARL', 'YEEZY-BOOST-350-V2-ASH-PEARL.jpg', 8000000, 2, 'Adidas Yeezy là sản phẩm thời trang hợp tác giữa hãng đồ thể thao Đức Adidas và nhà thiết kế, rapper, doanh nhân và cá tính người Mỹ Kanye West. Sự hợp tác đã trở nên đáng chú ý với các màu sắc phiên bản giới hạn cao cấp và các bản phát hành chung được cung cấp bởi dòng giày thể thao Yeezy Boost. Sự hợp tác cũng đã sản xuất áo sơ mi, áo khoác, quần thể thao, tất, giày trượt, giày và dép nữ. Mẫu giày đầu tiên (\"Boost 750\") được phát hành vào tháng 2/2015. ', 24),
-(58, 'Converse Chuck70s Hightop', 'Chuck70s.jpg', 2000000, 1, 'Converse là một công ty giày của Mỹ chuyên sản xuất giày trượt ván, giày dép thường ngày và quần áo. Được thành lập vào năm 1908, đến này Converse đã trở thành một công ty con của Nike, Inc. kể từ năm 2003.\r\n\r\nTrong suốt chiến tranh thế giới lần thứ II, từ một công ty chuyên gia công giày cho cộng đồng, Converse đã chuyển sang chuyên sản xuất các mẫu giày phục vụ cho quân đội. Đây là một trong số ít những nhà sản xuất sản phẩm giày thể thao thống trị thị trường giày của Mỹ trong suốt hơn một nửa', 20),
-(59, 'Biti\'s Hunter Nameless Edition x Công Trí', 'namelessedition.jpg', 1490000, 2, 'Sản phẩm đồng sáng tạo cùng biểu tượng đương đại - Nguyễn Công Trí  ✨\r\nBiti\'s Hunter và NTK Công Trí hướng đến những người trẻ hiện đại, không bó mình vào một \"hình dáng\" hoặc rào cản nào nhất định mà dễ dàng thay đổi, thích nghi với cuộc sống đa chiều. Biti’s Hunter cùng NTK Công Trí hướng đến những trải nghiệm thách thức khuôn khổ, không gò bó và áp đặt bởi bất kỳ điều gì, giúp các bạn trẻ tiếp tục lan toả cảm hứng, tự tin thể hiện cái tôi, vượt qua giới hạn của chính bản thâ', 27),
-(60, 'Biti\'s Hunter Street x Vietmax 2020 - BST HaNoi Cu', 'vietmaxhanoi.jpg', 899000, 0, 'iếp nối tinh thần #ProudlyMadeinVietNam, nếu 2019 là hơi thở của một Sài Gòn xô bồ mà phóng khoáng, không hoàn hảo nhưng vẫn đáng tự hào, thì 2020 là một nguồn cảm hứng rất khác - tự hào từ những thái cực văn hóa Hà Nội.\r\n\r\nỪ đúng rồi, Hà Nội của bạn đấy!\r\n\r\nKhi nóng điên dại, lúc lạnh thì tím tái\r\n\r\nLà mái ngói sánh vai phố thị ồn ã\r\n\r\nLà bê tông chọc trời cạnh mặt hồ thơ, ta rảo bước tìm ai\r\n\r\nHà Nội không vội, và cũng chẳng nửa vời\r\n\r\nĐiên đến nơi, hào hoa đến chốn\r\n\r\n \r\n\r\nHà Nội đâu chỉ đẹp ', 27),
-(61, 'Biti\'s Hunter Street x Vietmax 2020 - BST HaNoi Cu', 'bitisturqouise.jpg', 2800000, 1, 'Tiếp nối tinh thần #ProudlyMadeinVietNam, nếu 2019 là hơi thở của một Sài Gòn xô bồ mà phóng khoáng, không hoàn hảo nhưng vẫn đáng tự hào, thì 2020 là một nguồn cảm hứng rất khác - tự hào từ những thái cực văn hóa Hà Nội.\r\n\r\nỪ đúng rồi, Hà Nội của bạn đấy!\r\n\r\nKhi nóng điên dại, lúc lạnh thì tím tái\r\n\r\nLà mái ngói sánh vai phố thị ồn ã\r\n\r\nLà bê tông chọc trời cạnh mặt hồ thơ, ta rảo bước tìm ai\r\n\r\nHà Nội không vội, và cũng chẳng nửa vời\r\n\r\nĐiên đến nơi, hào hoa đến chốn\r\n\r\n \r\n\r\nHà Nội đâu chỉ đẹp', 27);
+(64, 'Cà phê đen đá', 'cafedenda.jpg', 32000, 0, 'Không ngọt ngào như Bạc sỉu hay Cà phê sữa, Cà phê đen mang trong mình phong vị trầm lắng, thi vị hơn. Người ta thường phải ngồi rất lâu mới cảm nhận được hết hương thơm ngào ngạt, phảng phất mùi cacao và cái đắng mượt mà trôi tuột xuống vòm họng.', 28),
+(65, 'Cà phê đen nóng', 'cafedennong.jpg', 35000, 0, 'Không ngọt ngào như Bạc sỉu hay Cà phê sữa, Cà phê đen mang trong mình phong vị trầm lắng, thi vị hơn. Người ta thường phải ngồi rất lâu mới cảm nhận được hết hương thơm ngào ngạt, phảng phất mùi cacao và cái đắng mượt mà trôi tuột xuống vòm họng.', 28),
+(66, 'Cà phê sữa đá', 'caphesuada.jpg', 32000, 0, 'Cà phê được pha phin truyền thống kết hợp với sữa đặc tạo nên hương vị đậm đà, hài hòa giữa vị ngọt đầu lưỡi và vị đắng thanh thoát nơi hậu vị.', 28),
+(67, 'Cà phê sữa nóng', 'cafesuanong.jpg', 35000, 0, 'Cà phê được pha phin truyền thống kết hợp với sữa đặc tạo nên hương vị đậm đà, hài hòa giữa vị ngọt đầu lưỡi và vị đắng thanh thoát nơi hậu vị.', 28),
+(68, 'Caramel Macchiato Đá', 'caramel-macchiato.jpg', 50000, 1, 'Caramel Macchiato sẽ mang đến một sự ngạc nhiên thú vị khi vị thơm béo của bọt sữa, sữa tươi, vị đắng thanh thoát của cà phê Espresso hảo hạng và vị ngọt đậm của sốt caramel được gói gọn trong một tách cà phê.', 28),
+(69, 'Caramel Macchiato Nóng', 'caramelmacchiatonong.jpg', 50000, 1, 'Caramel Macchiato sẽ mang đến một sự ngạc nhiên thú vị khi vị thơm béo của bọt sữa, sữa tươi, vị đắng thanh thoát của cà phê Espresso hảo hạng và vị ngọt đậm của sốt caramel được gói gọn trong một tách cà phê.', 28),
+(70, 'Latte Đá', 'latte-da.jpg', 50000, 1, 'Một sự kết hợp tinh tế giữa vị đắng cà phê Espresso nguyên chất hòa quyện cùng vị sữa nóng ngọt ngào, bên trên là một lớp kem mỏng nhẹ tạo nên một tách cà phê hoàn hảo về hương vị lẫn nhãn quan.', 28),
+(71, 'Latte Nóng', 'latte-nong.jpg', 50000, 1, 'Một sự kết hợp tinh tế giữa vị đắng cà phê Espresso nguyên chất hòa quyện cùng vị sữa nóng ngọt ngào, bên trên là một lớp kem mỏng nhẹ tạo nên một tách cà phê hoàn hảo về hương vị lẫn nhãn quan.', 28),
+(72, 'Americano Đá', 'americano-da.jpg', 40000, 1, 'Americano được pha chế bằng cách pha thêm nước với tỷ lệ nhất định vào tách cà phê Espresso, từ đó mang lại hương vị nhẹ nhàng và giữ trọn được mùi hương cà phê đặc trưng.', 28),
+(73, 'Americano Nóng', 'americano-nong.jpg', 40000, 1, 'Americano được pha chế bằng cách pha thêm nước với tỷ lệ nhất định vào tách cà phê Espresso, từ đó mang lại hương vị nhẹ nhàng và giữ trọn được mùi hương cà phê đặc trưng.', 28),
+(74, 'Cappuccino Đá', 'Capuchino-da.jpg', 50000, 0, 'Capuchino là thức uống hòa quyện giữa hương thơm của sữa, vị béo của bọt kem cùng vị đậm đà từ cà phê Espresso. Tất cả tạo nên một hương vị đặc biệt, một chút nhẹ nhàng, trầm lắng và tinh tế.', 28),
+(75, 'Cappuccino Nóng', 'cappuccino_nong.jpg', 50000, 1, 'Capuchino là thức uống hòa quyện giữa hương thơm của sữa, vị béo của bọt kem cùng vị đậm đà từ cà phê Espresso. Tất cả tạo nên một hương vị đặc biệt, một chút nhẹ nhàng, trầm lắng và tinh tế.', 28),
+(76, 'Espresso Đá', 'espresso_Da.jpg', 45000, 0, 'Một tách Espresso nguyên bản được bắt đầu bởi những hạt Arabica chất lượng, phối trộn với tỉ lệ cân đối hạt Robusta, cho ra vị ngọt caramel, vị chua dịu và sánh đặc.', 28),
+(77, 'Espresso Nóng', 'espresso_Nong.jpg', 40000, 0, 'Một tách Espresso nguyên bản được bắt đầu bởi những hạt Arabica chất lượng, phối trộn với tỉ lệ cân đối hạt Robusta, cho ra vị ngọt caramel, vị chua dịu và sánh đặc.', 28),
+(78, 'Cold Brew Sữa Tươi', 'cold-brew-sua-tuoi.jpg', 50000, 2, 'Thanh mát và cân bằng với hương vị cà phê nguyên bản 100% Arabica Cầu Đất cùng sữa tươi thơm béo cho từng ngụm tròn vị, hấp dẫn.', 28),
+(79, 'Cold Brew Truyền Thống', 'classic-cold-brew.jpg', 45000, 0, 'Tại The Staff House, Cold Brew được ủ và phục vụ mỗi ngày từ 100% hạt Arabica Cầu Đất với hương gỗ thông, hạt dẻ, nốt sô-cô-la đặc trưng, thoang thoảng hương khói nhẹ giúp Cold Brew giữ nguyên vị tươi mới.', 28),
+(80, 'Cold Brew Phúc Bồn Tử', 'cold-brew-pbt.jpg', 50000, 1, 'Vị chua ngọt của trái phúc bồn tử, làm dậy lên hương vị trái cây tự nhiên vốn sẵn có trong hạt cà phê, hòa quyện thêm vị đăng đắng, ngọt dịu nhẹ nhàng của Cold Brew 100% hạt Arabica Cầu Đất để mang đến một cách thưởng thức cà phê hoàn toàn mới, vừa thơm lừng hương cà phê quen thuộc, vừa nhẹ nhàng và thanh mát bởi hương trái cây đầy thú vị.', 28),
+(81, 'Cà Phê Đá Xay-Lạnh', 'caphedaxay.jpg', 59000, 0, 'Một phiên bản \"upgrade\" từ ly cà phê sữa quen thuộc, nhưng lại tỉnh táo và tươi mát hơn bởi lớp đá xay đi kèm. Nhấp 1 ngụm cà phê đá xay là thấy đã, ngụm thứ hai thêm tỉnh táo và cứ thế lôi cuốn bạn đến ngụm cuối cùng.', 28),
+(82, 'Mocha Đá', 'mocha-da.jpg', 50000, 0, 'Loại cà phê được tạo nên từ sự kết hợp hoàn hảo của vị đắng đậm đà của Espresso và sốt sô-cô-la ngọt ngào mang tới hương vị đầy lôi cuốn, đánh thức mọi giác quan nên đây chính là thức uống ưa thích của phụ nữ và giới trẻ.', 28),
+(83, 'Mocha Nóng', 'mochanong.jpg', 50000, 0, 'Loại cà phê được tạo nên từ sự kết hợp hoàn hảo của vị đắng đậm đà của Espresso và sốt sô-cô-la ngọt ngào mang tới hương vị đầy lôi cuốn, đánh thức mọi giác quan nên đây chính là thức uống ưa thích của phụ nữ và giới trẻ.', 28),
+(84, 'Trà Đào Cam Sả Chai Fresh 500ML', 'Bottle_TraDao.jpg', 109000, 1, 'Với phiên bản chai fresh 500ml, thức uống \"best seller\" đỉnh cao mang một diện mạo tươi mới, tiện lợi, phù hợp với bình thường mới và vẫn giữ nguyên vị thanh ngọt của đào, vị chua dịu của cam vàng nguyên vỏ và vị trà đen thơm lừng ly Trà đào cam sả nguyên bản. *Sản phẩm dùng ngon nhất trong ngày. *Sản phẩm mặc định mức đường và không đá.', 29),
+(85, 'Trà Đào Cam Sả - Đá', 'tra-dao-cam-xa_da.jpg', 45000, 0, 'Vị thanh ngọt của đào, vị chua dịu của Cam Vàng nguyên vỏ, vị chát của trà đen tươi được ủ mới mỗi 4 tiếng, cùng hương thơm nồng đặc trưng của sả chính là điểm sáng làm nên sức hấp dẫn của thức uống này.', 29),
+(86, 'Trà Đào Cam Sả - Nóng', 'tdcs-nong.jpg', 52000, 0, 'Vị thanh ngọt của đào, vị chua dịu của Cam Vàng nguyên vỏ, vị chát của trà đen tươi được ủ mới mỗi 4 tiếng, cùng hương thơm nồng đặc trưng của sả chính là điểm sáng làm nên sức hấp dẫn của thức uống này.', 29),
+(87, 'Trà Hạt Sen - Đá', 'tra-sen_da.jpg', 45000, 0, 'Nền trà oolong hảo hạng kết hợp cùng hạt sen tươi, bùi bùi và lớp foam cheese béo ngậy. Trà hạt sen là thức uống thanh mát, nhẹ nhàng phù hợp cho cả buổi sáng và chiều tối.', 29),
+(88, 'Trà Hạt Sen - Nóng', 'tra-sen-nong_.jpg', 52000, 1, 'Nền trà oolong hảo hạng kết hợp cùng hạt sen tươi, bùi bùi thơm ngon. Trà hạt sen là thức uống thanh mát, nhẹ nhàng phù hợp cho cả buổi sáng và chiều tối.', 29),
+(89, 'Trà Phúc Bồn Tử', 'tra-pbt.jpg', 50000, 0, 'Quả Phúc Bồn Tử hoàn toàn tự nhiên, được các barista Nhà kết hợp một cách đầy tinh tế cùng trà Oolong và cam vàng tạo ra một dư vị hoàn toàn tươi mới. Mát lạnh ngay từ ngụm đầu tiên, đọng lại cuối cùng là hương vị trà thơm lừng và vị ngọt thanh, chua dịu khó quên của trái phúc bồn tử.', 29),
+(90, 'Trà Đen Macchiato', 'tra-den-matchiato.jpg', 50000, 1, 'Trà đen được ủ mới mỗi ngày, giữ nguyên được vị chát mạnh mẽ đặc trưng của lá trà, phủ bên trên là lớp Macchiato \"homemade\" bồng bềnh quyến rũ vị phô mai mặn mặn mà béo béo.', 29),
+(91, 'Hồng Trà Sữa Trân Châu', 'hong-tra-sua-tran-chau.jpg', 55000, 1, 'Thêm chút ngọt ngào cho ngày mới với hồng trà nguyên lá, sữa thơm ngậy được cân chỉnh với tỉ lệ hoàn hảo, cùng trân châu trắng dai giòn có sẵn để bạn tận hưởng từng ngụm trà sữa ngọt ngào thơm ngậy thiệt đã.', 30),
+(92, 'Trà sữa Oolong Nướng Trân Châu', 'olong-nuong-tran-chau.jpg', 55000, 2, 'Hương vị chân ái đúng gu đậm đà với trà oolong được “sao” (nướng) lâu hơn cho hương vị đậm đà, hòa quyện với sữa thơm béo mang đến cảm giác mát lạnh, lưu luyến vị trà sữa đậm đà nơi vòm họng.', 30),
+(93, 'Trà Sữa Mắc Ca Trân Châu', 'tra-sua-mac-ca_377522.jpg', 50000, 0, 'Mỗi ngày với The Coffee House sẽ là điều tươi mới hơn với sữa hạt mắc ca thơm ngon, bổ dưỡng quyện cùng nền trà oolong cho vị cân bằng, ngọt dịu đi kèm cùng Trân châu trắng giòn dai mang lại cảm giác “đã” trong từng ngụm trà sữa.', 30),
+(94, 'Hồng Trà Latte Macchiato', 'hong-tra-latte.jpg', 55000, 1, 'Sự kết hợp hoàn hảo bởi hồng trà dịu nhẹ và sữa tươi, nhấn nhá thêm lớp macchiato trứ danh của The Coffee House mang đến cho bạn hương vị trà sữa đúng gu tinh tế và healthy.', 30),
+(95, 'Cookie Đá Xay', 'Chocolate-ice-blended.jpg', 59000, 1, 'Những mẩu bánh cookies giòn rụm kết hợp ăn ý với sữa tươi, kem tươi béo ngọt và đá xay mát lành, đem đến cảm giác lạ miệng gây thích thú và không thể cưỡng lại. Một món uống phá cách dễ thương đầy mê hoặc.', 33),
+(96, 'Chocolate Đá Xay', 'Chocola_da_xay.jpg', 59000, 0, 'Những mẩu bánh cookies giòn rụm kết hợp ăn ý với sữa tươi, kem tươi béo ngọt và đá xay mát lành, đem đến cảm giác lạ miệng gây thích thú và không thể cưỡng lại. Một món uống phá cách dễ thương đầy mê hoặc.', 33),
+(97, 'Phúc Bồn Tử Cam Đá Xay', 'cam-pbt-da-xay.jpg', 59000, 0, 'Tê tái ngay đầu lưỡi bởi sự mát lạnh của đá xay. Hòa quyện thêm hương vị chua chua, ngọt ngọt từ cam tươi và phúc bồn tử 100% tự nhiên, cho ra một hương vị thanh mát, kích thích vị giác đầy thú vị ngay từ lần đầu thưởng thức.', 33),
+(98, 'Chanh Sả Đá Xay', 'Chanh-sa-da-xay.jpg', 49000, 0, 'Sự kết hợp hài hoà giữa Chanh & sả - những nguyên liệu mộc mạc rất đỗi quen thuộc cho ra đời một thức uống thanh mát, vị chua chua ngọt ngọt giải nhiệt lại tốt cho sức khỏe.', 33),
+(99, 'Đào Việt Quất Đá Xay', 'DaoVietQuat.jpg', 59000, 0, 'Vị đào quen thuộc, được khoác lên mình dáng vẻ thanh mát hơn khi kết hợp với mứt berry và lớp kem ngọt béo ngậy, cho hương vị kích thích vị giác đầy lôi cuốn và khoan khoái ngay từ ngụm đầu tiên.', 33),
+(100, 'Matcha Đá Xay', 'matchadaxay.jpg', 59000, 1, 'Matcha thanh, nhẫn, và đắng nhẹ được nhân đôi sảng khoái khi uống lạnh. Nhấn nhá thêm những nét bùi béo của kem và sữa. Gây thương nhớ vô cùng!', 33),
+(101, 'Yogurt Dưa Lưới phát tài', 'tra-dua-luoi.jpg', 59000, 0, 'Vị yogurt chua ngọt, mát lạnh tái tê, thêm topping dưa lưới vàng tươi, thơm lừng, vui miệng. Thật khó để không yêu ngay từ ngụm đầu tiên.', 33),
+(102, 'Sinh Tố Việt Quất', 'sinh-to-viet-quoc.jpg', 59000, 0, 'Mứt Việt Quất chua thanh, ngòn ngọt, phối hợp nhịp nhàng với dòng sữa chua bổ dưỡng. Là món sinh tố thơm ngon mà cả đầu lưỡi và làn da đều thích.', 33),
+(103, 'Chocolate Nóng', 'chocolatenong.jpg', 59000, 0, 'Bột chocolate nguyên chất hoà cùng sữa tươi béo ngậy. Vị ngọt tự nhiên, không gắt cổ, để lại một chút đắng nhẹ, cay cay trên đầu lưỡi.', 33),
+(104, 'Cà Phê Sữa Đá Hòa Tan', 'cpsd-3in1.jpg', 44000, 4, 'Thật dễ dàng để bắt đầu ngày mới với tách cà phê sữa đá sóng sánh, thơm ngon như cà phê pha phin. Vị đắng thanh của cà phê hoà quyện với vị ngọt béo của sữa, giúp bạn luôn tỉnh táo và hứng khởi cho ngày làm việc thật hiệu quả.', 31),
+(105, 'Combo 3 Hộp Cà Phê Sữa Đá Hòa Tan', 'combo-3cfsd.jpg', 119000, 5, 'Thật dễ dàng để bắt đầu ngày mới với tách cà phê sữa đá sóng sánh, thơm ngon như cà phê pha phin. Vị đắng thanh của cà phê hoà quyện với vị ngọt béo của sữa, giúp bạn luôn tỉnh táo và hứng khởi cho ngày làm việc thật hiệu quả.', 31),
+(106, 'Thùng 24 Lon Cà Phê Sữa Đá', '24-lon-cpsd_225680.jpg', 336000, 5, 'Với thiết kế lon cao trẻ trung, hiện đại và tiện lợi, Cà phê sữa đá lon thơm ngon đậm vị của The Coffee House sẽ đồng hành cùng nhịp sống sôi nổi của tuổi trẻ và giúp bạn có được một ngày làm việc đầy hứng khởi.', 31),
+(107, 'Cà Phê Peak Flavor Hương Thơm Đỉnh Cao (350G)', 'peak-plavor.jpg', 90000, 0, 'Được rang dưới nhiệt độ vàng, Cà phê Peak Flavor - Hương thơm đỉnh cao lưu giữ trọn vẹn hương thơm tinh tế đặc trưng của cà phê Robusta Đăk Nông và Arabica Cầu Đất. Với sự hòa trộn nhiều cung bậc giữa hương và vị sẽ mang đến cho bạn một ngày mới tràn đầy cảm hứng.', 31),
+(108, 'Cà Phê Rich Finish Gu Đậm Tinh Tế (350G)', 'rich-finish.jpg', 90000, 0, 'The Staff House hiểu rằng ly cà phê ngon phải đậm đà, rõ vị từ cái chạm đầu tiên đến hậu vị vương vấn. Cà phê Rich Finish mang đến những ly cà phê đậm, thơm, hương vị tinh tế giúp bạn bắt đầu ngày mới đầy năng lượng.', 31),
+(109, 'Ly inox ống hút đen nhám', 'Binh-inox-ong-hut-den-nham.jpg', 280000, 5, 'Màu đen ngày nào cũng được khen- Chiếc ly inbox kèm ống hút mang sắc đen ngầu này sẽ là người bạn đồng hành may mắn mỗi ngày bên bạn, nước ngon hơn, nhiều cảm hứng hơn. Dung tích: 500 ml Chất liệu: Inox, nhựa', 32),
+(110, 'Ly Inox Ống Hút Xanh Biển', 'Binh-inox-ong-hut-xanh-bien.jpg', 280000, 5, 'Màu xanh \"chốt\" gì cũng nhanh - Chiếc ly inbox kèm ống hút mang sắc xanh này sẽ là người bạn đồng hành may mắn mỗi ngày bên bạn, nước ngon hơn, nhiều cảm hứng hơn. Dung tích: 500 ml Chất liệu: Inox, nhựa', 32),
+(111, 'Ly Inox Ống Hút Hồng Xanh', 'Binh-inox-ong-hut-xanh-hong.jpg', 280000, 5, 'Màu hồng xanh may mắn tới nhanh - Chiếc ly inbox kèm ống hút mang sắc xanh này sẽ là người bạn đồng hành may mắn mỗi ngày bên bạn, nước ngon hơn, nhiều cảm hứng hơn. Dung tích: 500 ml Chất liệu: Inox, nhựa', 32),
+(112, 'Ly Farm to Cup (Cao)', 'Ly-Farm-to-cup-cao.jpg', 150000, 2, 'Lấy cảm hứng từ vùng đất cà phê Việt Nam, ly sứ Farm To Cup sẽ cho bạn trải nghiệm đầy cảm hứng với món yêu thích tại nhà, tại nơi làm việc mỗi ngày. Dung tích ly: 400ml Thành phần: Cao lanh, đất sét, tráng thạch, men màu.', 32),
+(113, 'Ly Farm to Cup (Thấp)', 'Ly-Farm-to-cup-thap.jpg', 120000, 2, 'Lấy cảm hứng từ vùng đất cà phê Việt Nam, ly sứ Farm To Cup sẽ cho bạn trải nghiệm đầy cảm hứng với món yêu thích tại nhà, tại nơi làm việc mỗi ngày. Dung tích ly: 300ml Thành phần: Cao lanh, đất sét, tráng thạch, men màu.', 32);
 
 -- --------------------------------------------------------
 
@@ -113,27 +121,6 @@ CREATE TABLE `hoa_don` (
   `ma_kh` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Đang đổ dữ liệu cho bảng `hoa_don`
---
-
-INSERT INTO `hoa_don` (`ma_hd`, `ngay_mua`, `ghi_chu`, `tinh_trang`, `ma_kh`) VALUES
-(93, '05-05-2021', '', '1', 'admin'),
-(94, '05-05-2021', '', '1', 'admin'),
-(95, '05-05-2021', '', '2', 'admin'),
-(96, '05-05-2021', '', '1', 'admin'),
-(97, '06-05-2021', '', '1', 'admin'),
-(98, '06-05-2021', '', '1', 'admin'),
-(99, '07-5-2021', '', '1', 'pikachu'),
-(100, '07-05-2021', 'assshiba', '1', 'pikachu'),
-(101, '08-05-2021', '', '1', 'pikachu'),
-(102, '13-08-2021', '', '0', 'thy'),
-(103, '13-08-2021', '', '2', 'thy'),
-(104, '13-08-2021', '', '2', 'admin'),
-(105, '13-08-2021', '', '0', 'admin'),
-(106, '13-08-2021', '', '0', 'admin'),
-(107, '14-08-2021', '', '0', 'thy');
-
 -- --------------------------------------------------------
 
 --
@@ -146,36 +133,6 @@ CREATE TABLE `hoa_don_chi_tiet` (
   `don_gia` int(11) NOT NULL,
   `ma_hh` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Đang đổ dữ liệu cho bảng `hoa_don_chi_tiet`
---
-
-INSERT INTO `hoa_don_chi_tiet` (`ma_hd`, `so_luong`, `don_gia`, `ma_hh`) VALUES
-(93, 1, 2300000, 35),
-(94, 6, 1500000, 30),
-(94, 5, 2120000, 39),
-(94, 3, 2300000, 35),
-(95, 6, 1500000, 30),
-(95, 5, 2120000, 39),
-(95, 3, 2300000, 35),
-(96, 6, 1500000, 30),
-(96, 5, 2120000, 39),
-(96, 3, 2300000, 35),
-(97, 2, 2120000, 39),
-(97, 2, 2300000, 35),
-(98, 4, 2120000, 39),
-(98, 3, 2300000, 35),
-(99, 11, 2500000, 52),
-(99, 3, 2100000, 34),
-(100, 4, 1200000, 27),
-(101, 4, 2500000, 52),
-(101, 1, 2300000, 35),
-(102, 1, 8000000, 57),
-(104, 1, 3250000, 55),
-(105, 1, 1100000, 49),
-(106, 1, 2300000, 35),
-(107, 1, 2000000, 33);
 
 -- --------------------------------------------------------
 
@@ -198,11 +155,7 @@ CREATE TABLE `khach_hang` (
 
 INSERT INTO `khach_hang` (`ma_kh`, `ho_ten`, `mat_khau`, `email`, `dia_chi`, `vai_tro`) VALUES
 ('admin', 'Duy', '123123', 'truongduy0412bku@gmail.com', 'Hồ Chí Minh', 1),
-('hoan', 'Nguyen Van Hoan', '123123', 'hoan@gmail.com', 'Hà Nội', 0),
 ('pikachu', 'Piiiiiiiiiiii', '123123', 'pi@gmail.com', 'Đà Nẵng', 0),
-('tam', 'Tran Van Tam', '123456', 'tam@gmail.com', 'Hồ Chí Minh', 0),
-('tan', 'Nguyen Duy Tan', '123123', 'tan@gmail.com', 'Đồng Nai', 0),
-('thien', 'Dang Huu Thien', '123123', 'thien@gmail.com', 'Quãng Ngãi', 0),
 ('thy', 'Trương Anh Thy', '123123', 'thy@gmail.com', 'Vũng Tàu', 0);
 
 -- --------------------------------------------------------
@@ -221,14 +174,12 @@ CREATE TABLE `loai_hang` (
 --
 
 INSERT INTO `loai_hang` (`ma_loai`, `ten_loai`) VALUES
-(20, 'Converse'),
-(21, 'Blazer'),
-(22, 'Jordan'),
-(23, 'Pegasus'),
-(24, 'Adidas'),
-(25, 'Nike'),
-(26, 'MLB'),
-(27, 'Bitis');
+(28, 'Cà phê'),
+(29, 'Trà trái cây'),
+(30, 'Trà sữa'),
+(31, 'Thưởng thức tại nhà'),
+(32, 'Bộ sưu tập quà tặng'),
+(33, 'Đá xay-Choco-Matcha');
 
 -- --------------------------------------------------------
 
@@ -326,19 +277,19 @@ ALTER TABLE `binh_luan`
 -- AUTO_INCREMENT cho bảng `hang_hoa`
 --
 ALTER TABLE `hang_hoa`
-  MODIFY `ma_hh` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
+  MODIFY `ma_hh` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=114;
 
 --
 -- AUTO_INCREMENT cho bảng `hoa_don`
 --
 ALTER TABLE `hoa_don`
-  MODIFY `ma_hd` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=108;
+  MODIFY `ma_hd` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=110;
 
 --
 -- AUTO_INCREMENT cho bảng `loai_hang`
 --
 ALTER TABLE `loai_hang`
-  MODIFY `ma_loai` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+  MODIFY `ma_loai` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- AUTO_INCREMENT cho bảng `payments`

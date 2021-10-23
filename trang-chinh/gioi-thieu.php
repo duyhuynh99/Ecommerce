@@ -43,7 +43,7 @@
             </div>
             <div class="col-md-4" style="background-color: rgb(54, 54, 54);text-align: center">
                 <div class="logo">
-                <a href="index.php"><img src="https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.6435-9/181150315_102201648705132_5894264111956944146_n.png?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QFhQphCXzRAAX-d1fir&_nc_ht=scontent.fsgn13-1.fna&oh=9bdbefb8aa7738430f4cf22e51cefca8&oe=613BD03A" alt="anh"></a>
+                <a href="index.php"><img src="../css/trang-chu/img/logo11.png" alt="anh"></a>
                 </div>
             </div>
             <div class="col-md-4" style="background-color: rgb(54, 54, 54);text-align: center">
@@ -97,33 +97,33 @@
     <div class="container" style="margin-top: 80px;">
         <div class="row">
         <div class="col-sm-4">
-            <img src="https://kenh14cdn.com/203336854389633024/2021/4/30/photo-1-1619714258718680040081-1619717654605670284344.jpg" alt="" style = "width:100%;">
+            <img src="https://1.bp.blogspot.com/-HWX6ekoJ5Vk/X0JwN7_oP7I/AAAAAAAAyR8/syDqA9n6bjYAWv0JIC51gDPw0hydrLxYgCLcBGAsYHQ/s1600/Ly-Cafe%2B%25282%2529.jpg" alt="" style = "width:100%;">
         </div>
         <div class="col-sm-8">
 
         <div class="row">
             <div class="col-sm-12">
-                        <h2>TẤT TẦN TẬT VỀ THE CLOSER</h2>
-                        <p style = "text-align:justify;">THE CLOSER – Hệ thống cửa hàng, Website mua sắm giày thể thao & Sneakers tại Thành phố Hồ Chí Minh đặt biệt tại làng đại học, với sứ mạng đưa “nền văn hóa sát mặt đất” đến gần hơn với các bạn sinh viên làng đại học, chúng tôi cam kết mang đến một bộ sưu tập giày thể thao thời trang khổng lồ đến từ nhiều thương hiệu lớn, nhỏ và cả ở Việt Nam. Được trải qua các khâu tuyển lựa kỹ lưỡng sao cho phù hợp thị hiếu, phong cách Á Đông, đồng thời, bắt nhịp cùng xu hướng chung đang thịnh hành khắp thế giới. <br> <br>
+                        <h2>TẤT TẦN TẬT VỀ STAFF COFFEE HOUSE</h2>
+                        <p style = "text-align:justify;">STAFF COFFEE HOUSE – Hệ thống cửa hàng, Website kinh doanh cafe tại Thành phố Hồ Chí Minh, với sứ mạng đưa “nền văn hóa thưởng thức cà phê” đến gần hơn với các bạn trẻ Việt Nam, chúng tôi cam kết mang đến cho các bạn những loại cà phê chất thưởng và thơm ngon nhất tại thị trường Việt Nam. <br> <br>
 
-Chính thức hoạt động từ năm 2021, đi cùng những cố gắng và nỗ lực không ngừng nghỉ, đến thời điểm hiện tại, THE CLOSER đã đánh dấu mình vào một vị trí vững chắc trong văn hóa thời trang & sneakers ở thị trường miền Nam vốn rất năng động này. Sau khi thành lập và phát triển, 2 cửa hàng, showroom được ra đời, đều nằm trong các khu vực trung tâm thuộc thành phố Hồ Chí Minh. Thời gian sắp tới, THE CLOSER sẽ tiếp tục mở rộng thêm một chi nhánh nữa đặt tại các thành phố lớn, khu vực tập trung nhiều trường đại học và các bạn sinh viên. Ngay bây giờ, hãy cùng tìm hiểu vài nét sơ lược về cả 2 chi nhánh “to bự” này nhé!</p>
+Chính thức hoạt động từ năm 2021, đi cùng những cố gắng và nỗ lực không ngừng nghỉ, đến thời điểm hiện tại, STAFF COFFEE HOUSE đã đánh dấu mình vào một vị trí vững chắc trong văn hóa thưởng thức cafe ở thị trường miền Nam vốn rất năng động này. Sau khi thành lập và phát triển, 4 cửa hàng được ra đời, đều nằm trong các khu vực trung tâm thuộc thành phố Hồ Chí Minh. Thời gian sắp tới, STAFF COFFEE HOUSE sẽ tiếp tục mở rộng thêm các chi nhánh nữa đặt tại các thành phố lớn. Ngay bây giờ, hãy cùng tìm hiểu vài nét sơ lược về cả 4 chi nhánh “to bự” này nhé!</p>
             </div>
         </div>
 
         <div class="row">
             <div class="col-sm-12">
-                        <h4>CHI NHÁNH THE CLOSER</h4>
+                        <h4>CỬA HÀNG STAFF COFFEE HOUSE</h4>
             </div>
         </div>
 
         <div class="row">
             <div class="col-sm-6" style=" border-right:double #c30005 5px">
             <b>CN1: 777 Làng Đại Học – Thành phố Hồ Chí Minh</b><br>
-            <p style = "text-align:justify;margin-top:10px;">Ra đời vào năm 2021, là đứa con đầu tiên, là cột mốc khởi đầu cho quá trình “vươn mình ra biển lớn” của thương hiệu THE CLOSER. Mặc dù, không gian Showroom lúc này chưa thực sự lớn, các dòng sản phẩm, mẫu mã, thiết kế còn hạn chế. Đồng thời, những dịch vụ chăm sóc và hỗ trợ khách hàng vẫn còn rất nhiều thiếu sót. Tuy nhiên, mọi cố gắng không biết mệt mỏi của chúng tôi cuối cùng đã được đền đáp một cách xứng đáng…….</p>
+            <p style = "text-align:justify;margin-top:10px;">Ra đời vào năm 2021, là đứa con đầu tiên, là cột mốc khởi đầu cho quá trình “vươn mình ra biển lớn” của thương hiệu STAFF COFFEE HOUSE. Mặc dù, không gian cửa hàng lúc này chưa thực sự lớn, các dòng sản phẩm còn đơn giản và hạn chế. Đồng thời, những dịch vụ chăm sóc và hỗ trợ khách hàng vẫn còn rất nhiều thiếu sót. Tuy nhiên, mọi cố gắng không biết mệt mỏi của chúng tôi cuối cùng đã được đền đáp một cách xứng đáng…….</p>
             </div>
             <div class="col-sm-6">
             <b>CN2: 999 – Ba tháng Hai – Quận 10 - Thành phố Hồ Chí Minh</b><br>
-            <p style = "text-align:justify;margin-top:10px;">……2 năm trôi qua, một Showroom “bé bự” . Hoàn thiện hơn, mạnh mẽ hơn, không gian cực rộng lớn với các phân khu sản phẩm riêng biệt trải đều trên diện tích hơn 100m2. Nhằm “phổ cập” rộng rãi xu hướng thời trang mới cho giới trẻ Sài Thành, đồng thời, trở thành một tụ điểm mua sắm không thể bỏ qua tại thành phố Hồ Chí Minh.</p>
+            <p style = "text-align:justify;margin-top:10px;">……2 năm trôi qua, một cửa hàng “bé bự” . Hoàn thiện hơn, mạnh mẽ hơn, không gian cực rộng lớn với các phân khu thưởng thức cafe riêng biệt trải đều trên diện tích hơn 100m2. Nhằm “phổ cập” rộng rãi xu hướng cafe mới cho giới trẻ Sài Thành, đồng thời, trở thành một tụ điểm mua sắm không thể bỏ qua tại thành phố Hồ Chí Minh.</p>
             </div>
         </div>
 
@@ -137,34 +137,23 @@ Chính thức hoạt động từ năm 2021, đi cùng những cố gắng và n
                     <div class="col-sm-2"><img src="../css/trang-chu/img/freeship.jpg" alt="" style = "width:80px;"></div>
                     <div class="col-sm-10">
                     <b>Miễn phí giao hàng</b> <br>  
-                    Shop miễn phí giao hàng cho tất cả các đơn hàng trên 2.000.000 VNĐ. Giao hàng nhanh chóng và đảm bảo hàng nguyên vẹn cho quý khách !</div>
+                    Shop miễn phí giao hàng cho tất cả các đơn hàng trên 200.000 VNĐ. Giao hàng nhanh chóng và đảm bảo chất lượng nguyên vẹn cho quý khách !</div>  
                 </div><br>
                 <div class="row">
                     <div class="col-sm-2"><img src="../css/trang-chu/img/new.jpg" alt="" style = "width:80px;"></div>
                     <div class="col-sm-10">
-                    <b>Sản phẩm mới 100%</b> <br>  
-Sản phẩm tại shop đảm bảo là sản phẩm mới 100% và được nhập khẩu từ các nhãn hàng uy tín trên toàn quốc và trên thế giới.</div>
+                    <b>Cập nhật xu hướng cafe trên thế giới</b> <br>  
+                    Liên tục cập nhật là loại cà phê ngon và đặc sắc trên thế giới vào menu cửa hàng.</div>
                 </div><br>
-                <div class="row">
-                <div class="col-sm-2"><img src="../css/trang-chu/img/chinhhang.jpg" alt="" style = "width:80px;"></div>
-                    <div class="col-sm-10">
-                    <b>Hàng chính hãng</b> <br>  
-                    Sản phẩm tại shop đảm bảo là sản phẩm chính hãng và được nhập khẩu từ các nhãn hàng uy tín trên toàn quốc và trên thế giới.</div>
-                </div><br>
+               
             </div>
 
             <div class="col-sm-6">
                 <div class="row">
-                    <div class="col-sm-2"><img src="../css/trang-chu/img/doitra.jpg" alt="" style = "width:80px;"></div>
-                    <div class="col-sm-10">
-                    <b>Đổi trả trong vòng 7 ngày</b> <br>  
-Shop có chính sách đổi trả trong vòng 7 ngày đối với những khách hàng có nhu cầu đổi trả sản phẩm 1 cách nhanh chóng và tận tình</div>
-                </div><br>
-                <div class="row">
                     <div class="col-sm-2"><img src="../css/trang-chu/img/cskh.jpg" alt="" style = "width:80px;"></div>
                     <div class="col-sm-10">
                     <b>Chăm sóc khách hàng</b> <br>  
-Chế độ chăm sóc khách hàng tại shop tận tình , nhiệt tình hỗ trợ và phục vụ quý khách chu đáo.Đáp ứng nhu cầu của mọi khách hàng ! </div>
+Chế độ chăm sóc khách hàng tại shop tận tình , nhiệt tình hỗ trợ và phục vụ quý khách chu đáo.Đáp ứng nhu cầu của mọi khách hàng. Luôn luôn lắng nghe và làm hài lòng quý khách! </div>
                 </div><br>
                 <div class="row">
                 <div class="col-sm-2"><img src="../css/trang-chu/img/thanhtoan.jpg" alt="" style = "width:80px;"></div>
@@ -186,7 +175,7 @@ Thanh toán tại shop đa dạng bằng cách trả tiền mặt hoặc sử d�
                 <div class="row">
                     <div class="col-md-3">
                         <div class="fo">
-                        <img src="https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.6435-9/181150315_102201648705132_5894264111956944146_n.png?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QFhQphCXzRAAX-d1fir&_nc_ht=scontent.fsgn13-1.fna&oh=9bdbefb8aa7738430f4cf22e51cefca8&oe=613BD03A" alt="" style ="width:60px;">
+                        <img src="../css/trang-chu/img/logo11.png" alt="" style ="width:60px;">
                         </div>
                     </div>
                     <div class="col-md-3">

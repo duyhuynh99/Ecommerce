@@ -65,7 +65,7 @@
             </div>
             <div class="col-md-4" style="background-color: rgb(54, 54, 54);text-align: center">
                 <div class="logo">
-                <a href="index.php"><img src="https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.6435-9/181150315_102201648705132_5894264111956944146_n.png?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QFhQphCXzRAAX-d1fir&_nc_ht=scontent.fsgn13-1.fna&oh=9bdbefb8aa7738430f4cf22e51cefca8&oe=613BD03A" alt="anh"></a>
+                <a href="index.php"><img src="../css/trang-chu/img/logo11.png" alt="anh"></a>
                 </div>
             </div>
             <div class="col-md-4" style="background-color: rgb(54, 54, 54);text-align: center">
@@ -178,25 +178,17 @@
                         <li><del><?=number_format($don_gia)?></del> VNĐ</li>
                         <li style = "font-size:30px;"><?=number_format($don_gia - $don_gia*($giam_gia/100))?> VNĐ</li>
                         <li style="margin-top: 15px;"><?=$mo_ta?></li>
-                        <li class="gu" style="margin-top: 20px;"> <img src="../../bigshoes/css/chi-tiet-sp/img/ttt.png" alt=""> </li>
                         <li class="size" style="margin-top: 20px;">
                             <div class="soluong">
                                 <select name="" id="">
-                                    <option value="">Size</option>
-                                    <option value="">size 37</option>
-                                    <option value="">size 38</option>
-                                    <option value="">size 39</option>
-                                    <option value="">size 40</option>
+                                    <option value="">Size normal</option>
+                                    <option value="">Size minimal</option>
                                 </select>
                             </div>
 
                         </li>
                         <li class="soluong1" style="margin-top: 27px;">
-
-                            <input type="number" placeholder="1" readonly>
-
                         <!-- MÃ CODE PHP CHECK ĐĂNG NHẬP ĐỂ MUA HÀNG -->
-
                             <?php
                                 if(!isset($_SESSION['user'])){
                             ?>
@@ -226,7 +218,6 @@
                         <li> <img src="../../bigshoes/css/chi-tiet-sp/img/l2.png" alt=""> </li>
                         <li> <img src="../../bigshoes/css/chi-tiet-sp/img/l1.png" alt=""> </li><br>
                         <li> <img src="../../bigshoes/css/chi-tiet-sp/img/l4.png" alt=""> </li>
-
                         <li> <img src="../../bigshoes/css/chi-tiet-sp/img/l3.png" alt=""> </li>
                     </ul>
                    </div>
@@ -344,7 +335,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="fo">
-                        <img src="https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.6435-9/181150315_102201648705132_5894264111956944146_n.png?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QFhQphCXzRAAX-d1fir&_nc_ht=scontent.fsgn13-1.fna&oh=9bdbefb8aa7738430f4cf22e51cefca8&oe=613BD03A" alt="" style ="width:60px;">
+                        <img src="../css/trang-chu/img/logo11.png" alt="" style ="width:60px;">
                         </div>
                     </div>
                     <div class="col-md-3">

@@ -64,7 +64,7 @@
 			<div class="wrap-login100">
 				<form class="login100-form validate-form" method = "post">
 					<span class="login100-form-logo">
-					<a href="../../bigshoes/trang-chinh/index.php"><img src="https://scontent.fsgn8-2.fna.fbcdn.net/v/t1.6435-9/181150315_102201648705132_5894264111956944146_n.png?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QFhQphCXzRAAX9hWjg-&_nc_ht=scontent.fsgn8-2.fna&oh=9a3454f0ddabc998e0490ea9510b59f1&oe=613BD03A" width = "80px" alt=""></a>
+					<a href="../../bigshoes/trang-chinh/index.php"><img src="../css/trang-chu/img/logo11.png" width = "80px" alt=""></a>
 					</span>
 
 					<span class="login100-form-title p-b-34 p-t-27">
